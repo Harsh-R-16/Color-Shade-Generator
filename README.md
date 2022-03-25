@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Color Shade Generator
+
+### Link: https://color-shade-generator-harsh.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
