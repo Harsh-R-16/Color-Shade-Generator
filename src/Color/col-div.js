@@ -3,7 +3,7 @@ import { Div } from "./styledComponents";
 const ColDiv = ({ rgb, weight, type, hexColor }) => {
   let [showP, setShowP] = useState(true);
   let copy = (e) => {
-    navigator.clipboard.writeText("#" + hexColor);
+    navigator.clipboard.writeText("#" + hexColor.toUpperCase());
     setShowP(false);
     setTimeout(() => {
       setShowP(true);
